@@ -1,0 +1,47 @@
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background: grey;
+    color: blue;
+}
+
+.nav-bar {
+    display: flex;
+    gap: 3;
+}
+
+.nav-bar a {
+    flex: auto;
+    padding: 1rem; 
+    background: #444;
+    color: white;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.nav-bar a:hover {
+    color: aqua;
+}
+
+section {
+    border: 1px solid black;
+}
+
+#section3 {
+    width: 100%;
+    border: 1px solid red;
+    display: flex;
+    column-gap: 10px;
+    column-count: 2;
+}
+
+#part1 {
+    border: 1px solid green;
+}
+#part2 {
+    border: 1px solid blue;
+}
